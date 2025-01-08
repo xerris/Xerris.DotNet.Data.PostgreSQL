@@ -1,0 +1,15 @@
+/Users/greg/Projects/xerris/Xerris.DotNet.Data.PostgreSQL/src/Xerris.DotNet.Data.PostgreSQL/bin/Debug/net8.0/Xerris.DotNet.Data.PostgreSQL.deps.json
+/Users/greg/Projects/xerris/Xerris.DotNet.Data.PostgreSQL/src/Xerris.DotNet.Data.PostgreSQL/bin/Debug/net8.0/Xerris.DotNet.Data.PostgreSQL.runtimeconfig.json
+/Users/greg/Projects/xerris/Xerris.DotNet.Data.PostgreSQL/src/Xerris.DotNet.Data.PostgreSQL/bin/Debug/net8.0/Xerris.DotNet.Data.PostgreSQL.dll
+/Users/greg/Projects/xerris/Xerris.DotNet.Data.PostgreSQL/src/Xerris.DotNet.Data.PostgreSQL/bin/Debug/net8.0/Xerris.DotNet.Data.PostgreSQL.pdb
+/Users/greg/Projects/xerris/Xerris.DotNet.Data.PostgreSQL/src/Xerris.DotNet.Data.PostgreSQL/obj/Debug/net8.0/Xerris.DotNet.Data.PostgreSQL.csproj.AssemblyReference.cache
+/Users/greg/Projects/xerris/Xerris.DotNet.Data.PostgreSQL/src/Xerris.DotNet.Data.PostgreSQL/obj/Debug/net8.0/Xerris.DotNet.Data.PostgreSQL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/greg/Projects/xerris/Xerris.DotNet.Data.PostgreSQL/src/Xerris.DotNet.Data.PostgreSQL/obj/Debug/net8.0/Xerris.DotNet.Data.PostgreSQL.AssemblyInfoInputs.cache
+/Users/greg/Projects/xerris/Xerris.DotNet.Data.PostgreSQL/src/Xerris.DotNet.Data.PostgreSQL/obj/Debug/net8.0/Xerris.DotNet.Data.PostgreSQL.AssemblyInfo.cs
+/Users/greg/Projects/xerris/Xerris.DotNet.Data.PostgreSQL/src/Xerris.DotNet.Data.PostgreSQL/obj/Debug/net8.0/Xerris.DotNet.Data.PostgreSQL.csproj.CoreCompileInputs.cache
+/Users/greg/Projects/xerris/Xerris.DotNet.Data.PostgreSQL/src/Xerris.DotNet.Data.PostgreSQL/obj/Debug/net8.0/Xerris.DotNet.Data.PostgreSQL.sourcelink.json
+/Users/greg/Projects/xerris/Xerris.DotNet.Data.PostgreSQL/src/Xerris.DotNet.Data.PostgreSQL/obj/Debug/net8.0/Xerris.DotNet.Data.PostgreSQL.dll
+/Users/greg/Projects/xerris/Xerris.DotNet.Data.PostgreSQL/src/Xerris.DotNet.Data.PostgreSQL/obj/Debug/net8.0/refint/Xerris.DotNet.Data.PostgreSQL.dll
+/Users/greg/Projects/xerris/Xerris.DotNet.Data.PostgreSQL/src/Xerris.DotNet.Data.PostgreSQL/obj/Debug/net8.0/Xerris.DotNet.Data.PostgreSQL.pdb
+/Users/greg/Projects/xerris/Xerris.DotNet.Data.PostgreSQL/src/Xerris.DotNet.Data.PostgreSQL/obj/Debug/net8.0/Xerris.DotNet.Data.PostgreSQL.genruntimeconfig.cache
+/Users/greg/Projects/xerris/Xerris.DotNet.Data.PostgreSQL/src/Xerris.DotNet.Data.PostgreSQL/obj/Debug/net8.0/ref/Xerris.DotNet.Data.PostgreSQL.dll

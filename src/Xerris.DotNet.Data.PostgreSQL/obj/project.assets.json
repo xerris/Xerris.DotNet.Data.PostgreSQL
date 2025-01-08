@@ -4530,7 +4530,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "/Users/greg/Projects/xerris/Xerris.DotNet.Data.PostgreSQL/src/Xerris.DotNet.Data.PostgreSQL/Xerris.DotNet.Data.PostgreSQL.csproj",
-      "projectName": "Xerris.DotNet.Data.PostgreSQLs",
+      "projectName": "Xerris.DotNet.Data.PostgreSQL",
       "projectPath": "/Users/greg/Projects/xerris/Xerris.DotNet.Data.PostgreSQL/src/Xerris.DotNet.Data.PostgreSQL/Xerris.DotNet.Data.PostgreSQL.csproj",
       "packagesPath": "/Users/greg/.nuget/packages/",
       "outputPath": "/Users/greg/Projects/xerris/Xerris.DotNet.Data.PostgreSQL/src/Xerris.DotNet.Data.PostgreSQL/obj/",
