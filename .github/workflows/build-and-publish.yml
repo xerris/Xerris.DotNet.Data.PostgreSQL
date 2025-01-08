@@ -1,4 +1,4 @@
-name: Publish Xerris.DotNet.Core
+name: Publish Xerris.DotNet.Data.PostgreSQL
 
 on:
   pull_request:
@@ -11,7 +11,7 @@ jobs:
     uses: xerris/xerris-common-workflows/.github/workflows/build-and-publish-to-nuget.yml@main
     with:
       csproj-path: './src/Xerris.DotNet.Data.PostgreSQL/Xerris.DotNet.Data.PostgreSQL.csproj'
-      nuget-package-name: 'xerris.dotnet.data.postgressql'
+      nuget-package-name: 'xerris.dotnet.data.postgresql'
       dotnet-version: '8.0.x'
       release-path: 'net8.0'
     secrets:
