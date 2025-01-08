@@ -1,1 +1,1 @@
-# Xerris.DotNet.Data.PostgresSQL
+# Xerris.DotNet.Data.PostgreSQL
