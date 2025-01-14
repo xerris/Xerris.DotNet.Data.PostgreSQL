@@ -1,3 +1,4 @@
+using System;
 using Microsoft.EntityFrameworkCore;
 
 namespace Xerris.DotNet.Data.PostgreSQL;
