@@ -1,11 +1,11 @@
-using System;
 using Microsoft.EntityFrameworkCore;
 
 namespace Xerris.DotNet.Data.PostgreSQL;
 
 public abstract class PostgresDbContextFactory<T> : DbContextFactory<T> where T : DbContext
 {
-    public PostgresDbContextFactory(IConnectionBuilder connectionBuilder) : base(connectionBuilder)
+    public PostgresDbContextFactory(IConnectionBuilder connectionBuilder, IDbContextObserver observer) 
+        : base(connectionBuilder, observer )
     {
     }
 
