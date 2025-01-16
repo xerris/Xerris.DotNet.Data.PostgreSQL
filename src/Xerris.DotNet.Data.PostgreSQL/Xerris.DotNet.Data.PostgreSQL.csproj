@@ -18,5 +18,9 @@
       <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.2" />
       <PackageReference Include="Xerris.DotNet.Data" Version="0.0.10" />
     </ItemGroup>
-
+    
+    <ItemGroup Condition="Exists('..\..\..\Xerris.DotNet.Data\src\Xerris.DotNet.Data\Xerris.DotNet.Data.csproj')">
+        <ProjectReference Include="..\..\..\Xerris.DotNet.Data\src\Xerris.DotNet.Data\Xerris.DotNet.Data.csproj" />
+    </ItemGroup>
+    
 </Project>

@@ -9,11 +9,11 @@ public abstract class PostgresDbContextFactory<T> : DbContextFactory<T> where T 
     {
     }
 
-    protected override DbContextOptions<T> ApplyOptions(bool sensitiveDataLoggingEnabled = false)
+    protected override DbContextOptions<DbContext> ApplyOptions(bool sensitiveDataLoggingEnabled = false)
     {
         AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
-        return new DbContextOptionsBuilder<T>().UseNpgsql(ConnectionBuilder.AdminConnectionString,
+        return new DbContextOptionsBuilder<DbContext>().UseNpgsql(ConnectionBuilder.AdminConnectionString,
                                                           sqlOptions => { sqlOptions.EnableRetryOnFailure(); })
             .UseSnakeCaseNamingConvention()
             .EnableSensitiveDataLogging(sensitiveDataLoggingEnabled: sensitiveDataLoggingEnabled)
