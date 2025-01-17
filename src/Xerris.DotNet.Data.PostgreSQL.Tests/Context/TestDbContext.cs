@@ -3,23 +3,16 @@ using Xerris.DotNet.Data.PostgreSQL.Tests.Domain;
 
 namespace Xerris.DotNet.Data.PostgreSQL.Tests.Context;
 
-public class TestDbContext : DbContext
+public class TestDbContext : DbContextBase
 {
     public DbSet<TestEntity> TestEntities { get; set; }
 
-    public TestDbContext(DbContextOptions<DbContext> options) : base(options)
-    {
-    }
-}
-
-public class TestPostgresDbContextFactory : PostgresDbContextFactory<TestDbContext>
-{
-    public TestPostgresDbContextFactory(IConnectionBuilder connectionBuilder, IDbContextObserver observer)
-        : base(connectionBuilder, observer)
+    public TestDbContext(DbContextOptions<DbContextBase> options, IDbContextObserver observer) 
+        : base(options, observer)
     {
     }
 
-    protected override TestDbContext Create(DbContextOptions<DbContext> applyOptions,
-        IDbContextObserver dbContextObserver) =>
-        new(applyOptions);
+    protected override void RegisterModels(ModelBuilder modelBuilder)
+    {
+    }
 }
